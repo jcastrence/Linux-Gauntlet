@@ -1,52 +1,85 @@
-     llss – list directory contents
-     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
-     ppwwdd – return working directory name
-     mmkkddiirr – make directories
-     rrmm, uunnlliinnkk – remove directory entries
-     rrmmddiirr – remove directories
-     mmvv – move files
-     ccpp – copy files
-     ttoouucchh – change file access and modification times
-     ccaatt – concatenate and print files
-       less - opposite of more
-       less - opposite of more
-       vim - Vi IMproved, a programmer's text editor
-       vim - Vi IMproved, a programmer's text editor
-       pico - simple text editor in the style of the Alpine Composer
-     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
-     eecchhoo – write arguments to the standard output
-     ssttaatt, rreeaaddlliinnkk – display file status
-     llnn, lliinnkk – link files
-     ggrreepp, eeggrreepp, ffggrreepp, rrggrreepp, bbzzggrreepp, bbzzeeggrreepp, bbzzffggrreepp, zzggrreepp, zzeeggrreepp,
-     hhaalltt, rreebboooott – stopping and restarting the system
-     sshhuuttddoowwnn – close down the system at a given time
-     ssuu – substitute user identity
-NNAAMMEE
-     ggrroouuppss – show group memberships
-     ffddiisskk – DOS partition maintenance program
-     ddff – display free disk space
-     dduu – display disk usage statistics
-     mmoouunntt – mount file systems
-     iioossttaatt – report I/O statistics
-     qquuoottaa – display disk usage and limits
-     rreeppqquuoottaa – summarize quotas for a file system
-     eeddqquuoottaa – edit user quotas
-     qquuoottaaoonn, qquuoottaaooffff – turn filesystem quotas on and off
-     qquuoottaaoonn, qquuoottaaooffff – turn filesystem quotas on and off
-     cchhmmoodd – change file modes or Access Control Lists
-     cchhoowwnn – change file owner and group
-     cchhggrrpp – change group
-     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
-     ttaarr – manipulate tape archives
-     ppss – process status
-     ttoopp – display sorted information about processes
-     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
-     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
-     kkiillll – terminate or signal a process
-     ppiinngg – send ICMP ECHO_REQUEST packets to network hosts
-     ccrroonnttaabb – maintain crontab files for individual users (V3)
-     uuppttiimmee – show how long system has been running
-       git - the stupid content tracker
-     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
-       ssuuddoo, ssuuddooeeddiitt - execute a command as another user
-       vviissuuddoo - edit the sudoers file
+ls|list directory contents
+cd|change the current directory
+pwd|show the current working directory
+mkdir|create a new directory
+rm|remove files or directories
+rmdir|remove empty directories
+mv|move or rename files or directories
+cp|copy files or directories
+touch|create an empty file or update file timestamps
+cat|display file contents sequentially
+less|view file contents one screen at a time
+more|view file contents with forward scrolling
+vi|open the vi text editor
+vim|open the Vim text editor
+nano|open the nano text editor
+export|set or export environment variables
+echo|display a line of text or variable value
+stat|display detailed file or filesystem status
+ln|create hard or symbolic links
+grep|search text for matching patterns
+reboot|reboot the system
+update-grub|regenerate GRUB configuration files
+grub2-mkconfig|generate a GRUB2 configuration file
+systemctl|manage systemd services and units
+shutdown|power off or halt the system
+su|switch to another user account
+rpm|fully manage packages on RedHat based distributions
+yum|install or manage packages on RedHat based distributions, automatically handle dependencies, less modern
+dnf|install or manage packages on RedHat based distributions, automatically handle dependencies, most modern
+dpkg|fully manage packages on Debian based distributions
+apt|install or manage packages on Debian based distributions, automatically handle dependencies, less modern
+apt-get|install or manage packages on Debian based distributions, automatically handle dependencies, most modern
+useradd|create a new user account
+usermod|modify an existing user account
+userdel|remove a user account
+groupadd|create a new group
+groupmod|modify an existing group
+groupdel|delete a group
+passwd|set or change a user password
+groups|display group memberships for a user
+lsblk|list block devices
+fdisk|create or modify disk partitions
+pvcreate|initialize a physical volume for LVM
+vgcreate|create a volume group in LVM
+lvcreate|create a logical volume in LVM
+df|report filesystem disk space usage
+du|estimate file or directory space usage
+mount|mount a filesystem
+mkfs|create a filesystem on a device
+mkfs.ext3|create an ext3 filesystem
+mkfs.ext4|create an ext4 filesystem
+mke2fs|create an ext2 ext3 or ext4 filesystem
+mkswap|create a swap space
+swapon|enable swap space
+swapoff|disable swap space
+iostat|report CPU and disk I O statistics
+quota|display user or group disk quotas
+repquota|report disk quota usage for filesystems
+edquota|edit user or group disk quotas
+quotaon|enable disk quotas
+quotaoff|disable disk quotas
+chmod|change file or directory permissions
+chown|change file or directory ownership
+chgrp|change group ownership of a file or directory
+umask|set default file creation permissions
+setfacl|set file access control lists
+getfacl|display file access control lists
+tar|create or extract archive files
+modprobe|load or unload kernel modules automatically
+lsmod|list loaded kernel modules
+rmmod|remove a kernel module
+insmod|insert a kernel module
+ps|list active processes
+top|display real-time system processes and resource usage
+fg|bring a background job to the foreground
+bg|send a job to the background
+kill|terminate processes by signal
+ping|test network connectivity to a host
+crontab|schedule or manage recurring tasks
+journalctl|view systemd journal logs
+uptime|show system uptime and load averages
+git|manage source code with the Git version control system
+logout|exit the current shell session
+sudo|execute commands with elevated privileges
+visudo|safely edit the sudoers configuration
