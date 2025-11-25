@@ -1,0 +1,52 @@
+     llss – list directory contents
+     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
+     ppwwdd – return working directory name
+     mmkkddiirr – make directories
+     rrmm, uunnlliinnkk – remove directory entries
+     rrmmddiirr – remove directories
+     mmvv – move files
+     ccpp – copy files
+     ttoouucchh – change file access and modification times
+     ccaatt – concatenate and print files
+       less - opposite of more
+       less - opposite of more
+       vim - Vi IMproved, a programmer's text editor
+       vim - Vi IMproved, a programmer's text editor
+       pico - simple text editor in the style of the Alpine Composer
+     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
+     eecchhoo – write arguments to the standard output
+     ssttaatt, rreeaaddlliinnkk – display file status
+     llnn, lliinnkk – link files
+     ggrreepp, eeggrreepp, ffggrreepp, rrggrreepp, bbzzggrreepp, bbzzeeggrreepp, bbzzffggrreepp, zzggrreepp, zzeeggrreepp,
+     hhaalltt, rreebboooott – stopping and restarting the system
+     sshhuuttddoowwnn – close down the system at a given time
+     ssuu – substitute user identity
+NNAAMMEE
+     ggrroouuppss – show group memberships
+     ffddiisskk – DOS partition maintenance program
+     ddff – display free disk space
+     dduu – display disk usage statistics
+     mmoouunntt – mount file systems
+     iioossttaatt – report I/O statistics
+     qquuoottaa – display disk usage and limits
+     rreeppqquuoottaa – summarize quotas for a file system
+     eeddqquuoottaa – edit user quotas
+     qquuoottaaoonn, qquuoottaaooffff – turn filesystem quotas on and off
+     qquuoottaaoonn, qquuoottaaooffff – turn filesystem quotas on and off
+     cchhmmoodd – change file modes or Access Control Lists
+     cchhoowwnn – change file owner and group
+     cchhggrrpp – change group
+     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
+     ttaarr – manipulate tape archives
+     ppss – process status
+     ttoopp – display sorted information about processes
+     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
+     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
+     kkiillll – terminate or signal a process
+     ppiinngg – send ICMP ECHO_REQUEST packets to network hosts
+     ccrroonnttaabb – maintain crontab files for individual users (V3)
+     uuppttiimmee – show how long system has been running
+       git - the stupid content tracker
+     bbuuiillttiinn, !!, %%, .., ::, @@, [[, {{, }}, aalliiaass, aalllloocc, bbgg, bbiinndd, bbiinnddkkeeyy, bbrreeaakk,
+       ssuuddoo, ssuuddooeeddiitt - execute a command as another user
+       vviissuuddoo - edit the sudoers file
