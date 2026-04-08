@@ -44,7 +44,7 @@ pvcreate|initialize a physical volume for LVM
 vgcreate|create a volume group in LVM
 lvcreate|create a logical volume in LVM
 df|report filesystem disk space usage
-du|estimate file or directory space usage
+du|disk usage
 mount|mount a filesystem
 mkfs|create a filesystem on a device
 mkfs.ext3|create an ext3 filesystem
