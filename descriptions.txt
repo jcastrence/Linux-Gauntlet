@@ -83,3 +83,4 @@ git|manage source code with the Git version control system
 logout|exit the current shell session
 sudo|execute commands with elevated privileges
 visudo|safely edit the sudoers configuration
+wc|word, line, character, and byte count
